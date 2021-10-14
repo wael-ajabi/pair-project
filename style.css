@@ -1,6 +1,4 @@
 body{background-image:url('https://torange.biz/photofxnew/194/HD/pattern-dark-picture-lights-lines-curves-blue-vivid-colors-194439.jpg') ;
-  background-repeat: no-repeat;
-
 background-size: 1950px 1000px; }
 #logo{position: absolute;
 	left: 30%;
@@ -8,3 +6,141 @@ background-size: 1950px 1000px; }
 	width: 800px;
 	height: 800px;
        }
+
+
+#main{
+	position: absolute;
+left: 27%;
+	width: 900px;
+height: 900px;
+background-color: darkblue;
+border-radius: 10px;
+}       
+
+.image{width: 900px;
+height: 790px;}
+header{border:2px solid white;
+	background-color: black;
+height: 7%;}
+li{font-weight: bolder;
+	color: white;
+	display: inline-block;
+	margin-bottom: : 1%;
+margin-right: 10%;
+margin-left: 10%;
+font-size: 20pt; }
+footer{text-align: center;
+font-size: 20pt; 
+background-color: black;
+color: white;
+height: 50px;
+}
+#home{width: 900px;
+height: 740px;}
+
+
+#names{ margin-top: 5%;
+ }
+ .names2{margin-top: 3%;}
+ #play{position: relative;
+ 	bottom: 202px;
+ 	z-index: 90;
+ 	left: 200px;
+ 	height: 100px;
+ 	width:500px;
+ 	background-color: brown;
+border: 5px solid orange;
+ 	border-radius: 50px;
+ 	font-size: 30pt;
+
+              }
+              #play:hover{background-color: orange;}
+              #buttons{
+              	width: 300px;
+              	height: 50px;
+              	position: relative;
+                z-index: 99;
+              	bottom: 400px;
+                display: inline-block;
+
+                }
+                .shape{ background-image: linear-gradient(to bottom right, blue, darkblue);
+
+                	width: 300px;
+                	height: 50px;
+                	font-size: 15pt;
+                	color: white;
+                    border-radius: 10px;
+
+                border :1px solid yellow;
+
+ }
+ #question1{ background-image: linear-gradient(to bottom right, blue, darkblue);
+ 	        width: 500px;
+ 	        height: 200px;
+            border-radius: 10px;
+            height: 50px;
+            border :1px solid yellow;
+             position: relative;
+            top: 20px;
+            left: 220px;
+            color: white;
+text-align: center;}
+table{
+     position: relative;
+     left: 60px;
+     border-spacing: 70px;}
+
+
+aside{float: right;
+       border:5px solid yellow;
+       background-image: linear-gradient(to bottom right, blue, darkblue);
+       width: 200px;
+       position: relative;
+       right: 200px;
+       top: 300px
+;      }
+.right{font-size: 20pt;
+position: relative;
+right: 20px;}
+p{ border: 3px solid white;
+border-radius:50px;
+color: white;
+background-color: black;
+height: 60px;
+width: 70px;
+z-index: 100;
+position: absolute;
+left: 430px;
+bottom: 50px;
+text-align: center; 
+font-size: 30pt;
+padding-top: 10px;
+}
+
+#lost{
+	position: absolute;
+	z-index: 90;
+	bottom: 150px;
+	right: 650px;
+}
+.shape:hover{background-image: linear-gradient(to bottom right, yellow, gold);}
+#test{ background-color: lightgreen;
+          width: 200px;
+         height: 100px; 
+            font-size: 20pt;
+            position: absolute;
+            left: 200px;
+             top: 450px;
+             border-radius: 10px;
+         }
+
+     #test:hover{  background-color: #2EE59D;
+      box-shadow: 0px 15px 50px rgb(46, 229, 157);
+      color: #fff;
+      transform: translateY(-7px);}
+
+
+.checkpoint{
+margin-top: 350px;
+}

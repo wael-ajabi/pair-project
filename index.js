@@ -18,6 +18,7 @@ $("#lost").hide();
        var counter6=30;
        var counter7=30;
        var counter8=30;
+       var counter9=30;
        var counter10=30;
        var counter11=30;
     
@@ -231,9 +232,11 @@ function win5(){
 		counter5=1000000
 $("p").html("");
 	$("#home").html("");
-  $("#home").append("<div><table id='checkpoint'><tr><td><h2>Do you want to risk it all and be a</h2></td><td><button>MILLIONAIRE</button></td></tr></table><table class='checkpoint'><tr><td><h2>Take the money and go home a</h2></td><td><button onclick='win6()'>Coward</button></td></tr></table></div>")	
-
-
+	$("#home").append("<div class='image'><img class='image' src='checkpoint.jpg'></div>");
+  $("#home").append("<div><table id='checkpoint'><tr class='amir'><td><h2>Do you want to risk it all and be a</h2></td><td><button onclick='win6()' class='button-checkpoint'>MILLIONAIRE</button></td></tr></table><table class='checkpoint'><tr class='amir'><td><h2>Take the money and go home a</h2></td><td><button id ='coward' class='button-checkpoint onclick='win6()'>Coward</button></td></tr></table></div>")	
+ $('#10m').html("$ 10.000 $")
+    $('#10m').css('color','gold');
+ 
 }
   
 function win6(){
@@ -244,8 +247,7 @@ function win6(){
  	document.getElementById('player').pause();
 	document.getElementById('player1').play();
 	$('#50m').css('color','red');
-    $('#10m').html("$$10.000$$")
-    $('#10m').css('color','gold');
+   
 
 
 	$('aside').show();
@@ -315,7 +317,7 @@ function win8(){
 	$("p").html("");
 	$("#home").html("");
 		$("#home").append("<img class='image' src='http://potionpictures.co.uk/wp-content/uploads/2018/05/2018-Who-Wants-To-Be-A-Millionaire-colour-corrected.jpg'>");
-          $("#home").append("<div id='buttons'><p></p> <div id='question'><h1 id='question1' style='font-size:19pt;'> who is addicted to sleep ?</h1></div><br><table><tr><td><button  class='shape' onclick='lose()'>foued</button></td><td><button  class='shape' onclick='win9()'>Amir</button></td></tr><br><tr><td><button class='shape' onclick='lose()'>wassim</button></td><td> <button class='shape' onclick='win8()'>Bechir</button></td></tr></table></div>")
+          $("#home").append("<div id='buttons'><p></p> <div id='question'><h1 id='question1' style='font-size:19pt;'> who is addicted to sleep ?</h1></div><br><table><tr><td><button  class='shape' onclick='lose()'>foued</button></td><td><button  class='shape' onclick='check()'>Amir</button></td></tr><br><tr><td><button class='shape' onclick='lose()'>wassim</button></td><td> <button class='shape' onclick='win8()'>Bechir</button></td></tr></table></div>")
  	document.getElementById('player').pause();
 	document.getElementById('player1').play();
 	
@@ -348,6 +350,15 @@ var ch = $("p")
 
 
 
+function check(){
+		counter8=1000000
+$("p").html("");
+	$("#home").html("");
+	$("#home").append("<div class='image'><img class='image' src='checkpoint.jpg'></div>");
+  $("#home").append("<div><table id='checkpoint'><tr class='amir'><td><h2>Do you want to risk it all and be a</h2></td><td><button onclick='win9()' class='button-checkpoint'>MILLIONAIRE</button></td></tr></table><table class='checkpoint'><tr class='amir'><td><h2>Take the money and go home a</h2></td><td><button id ='coward' class='button-checkpoint onclick='win6()'>Coward</button></td></tr></table></div>")	
+
+ $('#250m').html('$$250.000$$')
+	$('#250m').css('color','gold');}
 
 
 
@@ -358,15 +369,13 @@ var ch = $("p")
 
 
 function win9(){
-	counter8=100000
 	$("p").html("");
 	$("#home").html("");
 		$("#home").append("<img class='image' src='http://potionpictures.co.uk/wp-content/uploads/2018/05/2018-Who-Wants-To-Be-A-Millionaire-colour-corrected.jpg'>");
-          $("#home").append("<div id='buttons'><p></p> <div id='question'><h1 id='question1' style='font-size:19pt;'> who is the person  ?</h1></div><br><table><tr><td><button  class='shape' onclick='lose()'>foued</button></td><td><button  class='shape' onclick='win9()'>Amir</button></td></tr><br><tr><td><button class='shape' onclick='lose()'>wassim</button></td><td> <button class='shape' onclick='win8()'>Bechir</button></td></tr></table></div>")
+          $("#home").append("<div id='buttons'><p></p> <div id='question'><h1 id='question1' style='font-size:19pt;'> The KING of feed back's?</h1></div><br><table><tr><td><button  class='shape' onclick='lose()'>Amine</button></td><td><button  class='shape' onclick='lose()'>Bob</button></td></tr><br><tr><td><button class='shape' onclick='win10()'>Wassim</button></td><td> <button class='shape' onclick='lose()'>Mourad</button></td></tr></table></div>")
  	document.getElementById('player').pause();
 	document.getElementById('player1').play();
-	$('#250m').html('$$250.000$$')
-	$('#250m').css('color','gold');
+	$('#500m').css('color','red');
 	
 
 	$('aside').show();
@@ -390,3 +399,41 @@ var ch = $("p")
  		}	
 	 }, 1000);
 }
+
+
+
+function win10(){
+	counter9=100000
+	$("p").html("");
+	$("#home").html("");
+		$("#home").append("<img class='image' src='http://potionpictures.co.uk/wp-content/uploads/2018/05/2018-Who-Wants-To-Be-A-Millionaire-colour-corrected.jpg'>");
+          $("#home").append("<div id='buttons'><p></p> <div id='question'><h1 id='question1' style='font-size:19pt;'> Who always knows everything ?</h1></div><br><table><tr><td><button  class='shape' onclick='win11()'>Amine Jlassi</button></td><td><button  class='shape' onclick='lose()'>Sakrakr</button></td></tr><br><tr><td><button class='shape' onclick='lose()'>Wassim</button></td><td> <button class='shape' onclick='lose()'>Wassim</button></td></tr></table></div>")
+ 	document.getElementById('player').pause();
+	document.getElementById('player1').play();
+	$('#800m').css('color','red');
+	$('#500m').css('color','#2EE59D');
+	
+
+	$('aside').show();
+var ch = $("p")
+	setInterval(function(){ 
+		    ch.html("")
+ 			ch.append('<div id="timer">'+counter10+'</div>');
+ 		if(counter10>0)
+ 		{	
+ 			counter10--;
+ 		}
+ 		else{
+ 			$("#home").html("");
+		$("#home").append("<div id='lost1'><img class='image' src='saadi.jpg'></div>");
+           $("#lost").show(3000);
+        document.getElementById('player1').pause();
+         document.getElementById('player2').play();
+            $('aside').hide();
+            $('#test').show();
+
+ 		}	
+	 }, 1000);
+}
+
+
